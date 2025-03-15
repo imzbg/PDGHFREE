@@ -1,0 +1,18 @@
+name: PDGHFREE
+version: 1.0
+main: me.zbg.pdghfree.Main
+author: imzbg
+website: https://pdgh.com.br
+load: STARTUP
+depend: [Vault]
+commands:
+  free:
+    description: Comando do plugin
+
+permissions:
+  pdgh.membro:
+    description: Permissão para comandos básicos como /free entrar/status.
+  pdgh.admin:
+    description: Comandos de Admin
+  pdgh.diretor:
+    description: Comandos de Diretor

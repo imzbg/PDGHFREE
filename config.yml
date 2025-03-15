@@ -1,0 +1,74 @@
+AutoStart:
+  Horarios: # Coloque um plugin que reinicie os plugins e adicone o PDGHFree para ser reiniciado antes de cada AutoStart pois está quebrado.
+    - "20:30" 
+    - "22:30"
+
+FREE:
+  Anuncios: 6 # Um anuncio a cada 10 segundos, coloca quantos quiser
+  Premio: 50000 # Ajuste de acordo com sua economia
+  Status:
+    Acontecendo:
+    - "&4[PDGH-FREE] &7- &cStatus: &aAcontecendo"
+    - "&4[PDGH-FREE] &7- &cParticipantes: &a@participando"
+    Nao_Acontecendo:
+    - "&4[PDGH-FREE] &7- &cStatus: &4Não acontecendo"
+    - "&4[PDGH-FREE] &7- &cUltimo vencedor: &7@ultimovencedor"
+    Restam:
+    - "&4[PDGH-FREE] &7- &cRestam &7@jogadores jogadores &cno evento PDGH-FREE!"
+  Chat: true # Chat ativado ou desativado no evento (true = ativado; false = desativado)
+  Ativar_Tag: true # Tag no legendchat {pdghfree}
+  Tag: "&7[&4LeãoDeItemFREE&7] "
+
+Mensagens:
+  FREE:
+    Principal:
+    - "&4[PDGH-FREE] &7- &cComandos"
+    - "&4[PDGH-FREE] &7- &c/free entrar"
+    - "&4[PDGH-FREE] &7- &c/free status"
+    - "&4[PDGH-FREE] &7- &c/free info"
+    
+    Admin:
+    - "&4[PDGH-FREE] &7- &cComandos"
+    - "&4[PDGH-FREE] &7- &c/free iniciar"
+    - "&4[PDGH-FREE] &7- &c/free setspawn"
+    - "&4[PDGH-FREE] &7- &c/free setsaida"
+    - "&4[PDGH-FREE] &7- &c/free status"
+    - "&4[PDGH-FREE] &7- &c/free info"
+
+    Ativando_PvP:
+    - "&4[PDGH-FREE] &7- &cAtivando pvp em &7@segundos segundos&c!"
+    - "&4[PDGH-FREE] &7- &cJogadores participando: &7@participando&c!"
+
+    PvP_Ativado:
+    - "&4[PDGH-FREE] &7- &cO pvp foi ativado!"
+    - "&4[PDGH-FREE] &7- &cJogadores participando: &7@participando&c!"
+
+    Anuncios_Comecando:
+    - "&4[PDGH-FREE] &7- &cEvento PDGH-FREE começando!"
+    - "&4[PDGH-FREE] &7- &cPrêmio: &a$@premio &c+ tag @tag"
+    - "&4[PDGH-FREE] &7- &cPara entrar, use &7/free entrar&c!"
+    - "&4[PDGH-FREE] &7- &cJogadores participando: &7@participando&c!"
+    - "&4[PDGH-FREE] &7- &cChamadas restantes: &7@anuncios&c!"
+
+    Vencedor:
+    - "&4[PDGH-FREE] &7- &cEvento PDGH-FREE FINALIZADO!"
+    - "&4[PDGH-FREE] &7- &cVencedor: &7@vencedor&c!"
+    - "&4[PDGH-FREE] &7- &cPrêmio: &a$@premio &c+ tag &7[&4LeãoDeItemFREE&7]"
+
+    Faltou_Jogadores:
+    - "&4[PDGH-FREE] &7- &cEvento PDGH-FREE foi cancelado!"
+    - "&4[PDGH-FREE] &7- &cNão houve jogadores suficientes para iniciar o evento."
+
+    Cancelado_Staff:
+    - "&4[PDGH-FREE] &7- &cEvento PDGH-FREE foi cancelado!"
+    - "&4[PDGH-FREE] &7- &cO evento foi cancelado por um membro da Equipe." 
+
+    Morte: "&4[PDGH-FREE] &cO jogador &7@morreu &cfoi eliminado por &7@matou &7(@kills)"
+
+    Esvazie_INV: "&cEsvazie seu inventário para entrar no PDGH-FREE."
+    Entrou: "&aVocê entrou no evento PDGH-FREE!"
+    Ja_Participando: "&cVocê já está participando do evento PDGH-FREE."
+    Morreu: "&cVocê morreu no evento PDGH-FREE."
+    Evento_Fechado: "&cO evento PDGH-FREE já começou ou não está acontecendo."
+    Sem_Permissao: "&cVocê não tem permissão para usar este comando."
+    Comando_nao_Encontrado: "&4[PDGH-FREE] &7- &cComando não encontrado!"
